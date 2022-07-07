@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/1bb6d48af2.js" crossorigin="anonymous"></script>
+    <title>Recipe App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="meal-wrapper">
+            <div class="meal-search">
+                <h2 class="title">Find meals for your ingredients</h2>
+                <blockquote>Real food doesn't have ingredients, real food is ingredients
+                    <cite>- Jamie Oliver.</cite>
+                </blockquote>
+                <div class="meal-search-box">
+                    <input type="text" class="search-control" id="search-input" placeholder="Enter an ingredient">
+                    <button type="submit" class="search-btn btn" id="search-btn"> <i class="fas fa-search"></i> </button>
+                </div>
+            </div>
+            <div class="meal-result">
+                <h2 class="title">Your search results:</h2>
+                <div id="meal"></div>
+            </div>
+            <div class="meal-details">
+                <button type="button" class="btn recipe-close-btn" id="recipe-close-btn"> <i class="fas fa-times"></i> </button>
+                <div class="meal-details-content"></div>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
