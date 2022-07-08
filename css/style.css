@@ -179,6 +179,10 @@ blockquote{
 .recipe-instruct{
     padding: 1rem 0;
 }
+.recipe-instruct ul{
+    list-style: none;
+    padding: 1rem 0;
+}
 .recipe-meal-img img{
     width: 200px;
     height: 200px;
